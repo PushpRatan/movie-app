@@ -1,0 +1,29 @@
+.card{
+    display: flex !important;
+    flex-direction: column !important;
+    
+    width: 250px !important;
+    margin: 5px 0 !important;
+    color: wheat !important;
+    background-color: #292626 !important;
+    border-radius: 10px !important;
+    position: relative !important;
+    text-align: center !important;
+    &>*{
+        padding: 5px !important;
+    }
+}
+
+.card:hover{
+    background-color: rgb(255, 166, 0) !important;
+    color: #292626 !important;
+}
+
+img{
+    border-radius: 10px !important;
+}
+
+.rate{
+    display: inline !important;
+    position: relative!important;
+}
