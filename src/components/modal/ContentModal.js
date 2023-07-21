@@ -8,6 +8,7 @@ import Typography from "@mui/material/Typography";
 import axios from "axios";
 import { img_500, unavailable, unavailableLandscape } from "../config/config";
 import "./ContentModal.css";
+import Favourites from "../Favourites/favourites";
 
 const style = {
   "box-sizing": "border-box",
@@ -95,8 +96,9 @@ export default function ContentModal({ children, media_type, id }) {
                   <span className="ContentModal_description">
                     {content.overview || "No details available"}
                   </span>
-                  <div></div>
-                  <Button variant="contained">Add to Favourites</Button>
+                  <Button className="favbtn" variant="contained">
+                    <Favourites content={content}>Add to Favourites</Favourites>
+                  </Button>
                 </div>
               </div>
             )}

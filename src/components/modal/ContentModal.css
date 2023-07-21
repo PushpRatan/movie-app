@@ -65,6 +65,10 @@
   display: none;
 }
 
+.favbtn{
+  width: fit-content;
+}
+
 @media (min-width: 900px) {
   .ContentModal_landscape {
     display: none;
