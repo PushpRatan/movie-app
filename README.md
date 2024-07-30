@@ -1,6 +1,6 @@
 # Movie Web App
 
-Welcome to the Movie Web App repository! This web application allows users to search for movies, read movie details by clicking on the banner, and view ratings and reviews for movies. The app is currently deployed and accessible at: [https://pushp-movie-app.netlify.app/](https://pushp-movie-app.netlify.app/).
+Hi there, this web application allows users to search for movies, read movie details by clicking on the banner, and view ratings and reviews for movies. The app is currently deployed and accessible at: [https://pushp-movie-app.netlify.app/](https://pushp-movie-app.netlify.app/).
 
 ## Table of Contents
 
